@@ -68,6 +68,11 @@ p {
     flex-wrap: wrap;
     width: 30%;
 
+
+
+    height: 2.2em;
+    line-height: 2.2em;
+
     font-family: monospace;
     font-size: 1.2em;
 
