@@ -1,0 +1,93 @@
+
+
+body {
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.whole {
+//    border: 5px solid blue;
+margin: auto;
+margin-top: 20px;
+    max-width: 50rem;
+    padding: 1px;
+}
+
+span.ttm {
+    color:  #39ff14;
+    font-family: monospace;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-family: "Helvetica", sans-serif;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+}
+
+h2 {
+    color: gray;
+    font-family: "Helvetica", sand-serif;
+    // font-size: smaller;
+    font-size: 1.2em;
+    margin-top: 1px;
+}
+
+p {
+    line-height: 1.4;
+    font-size: 1.2em;
+}
+
+
+.content {
+    background: #ffffff;
+    padding: 20px;
+    margin: 1px;
+    position: relative;
+    text-align: left;
+}
+
+.links {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.l {
+    border: 1px solid black;
+    color: #39ff14;
+    background-color: black;
+    padding: 10px;
+    margin: 1px;
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+
+    font-family: monospace;
+    font-size: 1.2em;
+
+    text-decoration: none;
+
+}
+
+.l:hover {
+    background-color: #39ff14;
+    color: black;
+}
+
+
+.terminal {
+    animation: blink 1s infinite step-end;
+    color: #39ff14;
+    font-size: 1.2em;
+}
+
+@keyframes blink {
+  from, to { opacity: 0; }
+  50% {opacity: 1;}
+}
